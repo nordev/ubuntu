@@ -1,0 +1,5 @@
+# Free disk space. From root dir, see folders order by disk usage
+cd / && du -h | sort -h
+
+# Find a proccess and kill it
+ps aux | grep [MY_PROCESS] | awk '{print $2}'| xargs kill -9

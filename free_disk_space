@@ -1,1 +1,0 @@
-cd / && du -h | sort -h
